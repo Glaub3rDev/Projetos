@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode {
+    background-color: white;
+    color: black;
+transition: 0.3s;    
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+transition: 0.3s;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+
+}
+
+body.light-mode button {
+    background-color: black;
+    color: white;
+    box-shadow: 0px 0px 10px black;
+transition: 0.3s;
+}
+
+body.dark-mode button {
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px purple;
+transition: 0.3s;    
+}
+

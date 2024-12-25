@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.chart-container {
+    width: 100%;
+    margin: 20px auto;
+}
+
+.form-container {
+    margin: 20px 0;
+}
+
+input, button {
+    margin: 10px 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: -px 2px 10px rgba(0, 0, 0, 0.066);
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+    
+
+}
+
+button:hover {
+    background-color: #218838;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.559);
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    margin-top: 20px;
+}
+
+ul li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#financeChart {
+    width: 50%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+}

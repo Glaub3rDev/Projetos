@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Financeiro</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <h1>Controle Financeiro</h1>
+    <h2 id="salary-display">Salário Restante: R$ 2100</h2>
+
+    <div>
+        <input type="text" id="item-name" placeholder="Nome do Tópico">
+        <input type="number" id="item-value" placeholder="Valor">
+        <input type="color" id="item-color" value="#000000">
+        <button id="add-item">Adicionar</button>
+    </div>
+
+    <ul id="item-list"></ul>
+    <canvas id="financeChart"></canvas>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
