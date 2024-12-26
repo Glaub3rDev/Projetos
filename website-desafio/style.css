@@ -190,17 +190,18 @@ img {
 }
 
 aside {
-    background-color: var(--cor1);
+    background-color: #4eb31f;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.217);
 }
 
 aside > h3 {
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-titulo);
     background-color: #285e0f;
     color: white;
     text-align: center;
+    font-size: 1.2em;
     padding: 10px;
     margin: -10px -10px 0px -10px;
     border-radius: 10px 10px 0px 0px;
