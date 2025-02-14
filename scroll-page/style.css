@@ -6,7 +6,6 @@
 }
 nav {
     position: fixed;
-    
     top: 0;
     left: 0;
     width: 100%;
@@ -45,6 +44,7 @@ nav ul li a {
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+    transition-duration: 0.7s;
 }
 
 nav ul li a:hover {

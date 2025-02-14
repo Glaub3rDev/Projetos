@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html,body {
+    min-height: 100vh;
+}
+
+:root {
+    --cor001:#E8E8E8;
+    --cor002:#3F3B3B;
+    --cor003:#1A1A1A;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: var(--cor003);
+    color: white;
+}
+
+nav > a {
+    position: relative;
+    left: -545px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    color: var(--cor002);
+    background-color: var(--cor001);
+    border-radius: 20px;
+    box-shadow: -1px 4px 0px 0px black;
+    transition-duration: 0.7s;
+}
+
+nav > img {
+    position: relative;
+    top: 6px;
+    left: -565px;
+    height: 43px;
+    border-radius: 50%;
+    text-align: left;
+}
+
+nav > img:hover {
+    box-shadow: -1px 4px 0px 0px black;
+    transition-duration: 0.7s;
+}
+
+#s1 {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    background-image: url(../img/download\ \(1\).jpeg);
+    background-size: cover;
+}
+
+.s1-content {
+    text-align: center;
+    color: white;
+}
+
+#s2 {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    background-image: url(../img/Wallpaper\ 4k.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.s2-content {
+    text-align: center;
+    color: white;
+}
+
+#s3 {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    background-image: url(../img/download.jpeg);
+    background-size: cover;
+}
+
+.s3-content {
+    text-align: center;
+    color: white;
+}
+
+#s4 {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.s4-content {
+    text-align: center;
+    color: white;
+}

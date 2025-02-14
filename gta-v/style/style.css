@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+:root {
+--cor001:#45553d;
+--cor002:#000101;
+
+--font-title: 'Oswald', sans-serif;
+--font-body: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    font-family: var(--font-body);
+    min-height: 100vh;
+    background-color: #000101;
+    color: white;
+}
+
+header {
+    background-color: #000101;
+    color:white;
+    text-align: center;
+    min-width: 150px;
+    padding-bottom: 20px;
+}
+
+header > p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header > h1 {
+    padding-bottom: 20px;
+    font-size: 3.2em;
+}
+
+nav {
+    background-color: var(--cor002);
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+nav > a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    transition-duration: 0.7s;
+}
+
+nav a:hover {
+    background-color: var(--cor001);
+    color: black;
+    border-radius: 10px;
+}
+
+#normal {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    background-color: white;
+    color: black;
+}
+
+.conteudo-normal {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    text-align: center;
+}
+
+#michael {
+    padding-top:  15vh;
+    padding-bottom: 15vh;
+    background-color: #45553d;
+    line-height: 2.3em;
+    padding-left: 30px;
+    background: url(../imagens/M.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#franklin {
+    padding-top:  15vh;
+    padding-bottom: 15vh;
+    background-color: #45553d;
+    line-height: 2.3em;
+    padding-left: 30px;
+    background: url(../imagens/F.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#trevor {
+    padding-top:  15vh;
+    padding-bottom: 15vh;
+    background-color: #45553d;
+    line-height: 2.3em;
+    padding-left: 30px;
+    background: url(../imagens/T.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.conteudo {
+    text-align: left;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #000101e8;
+}
+
+.conteudo:hover {
+    box-shadow: 18px 18px 40px -13px rgb(0, 0, 0);
+    transition-duration: 0.7s;
+}
+
+.conteudo > h2,h3 {
+    text-align: center;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+}
+
+footer > h1,p {
+    font-size: 1.2em;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(71, 71, 71);
+    transition-duration: 0.7s;
+}
